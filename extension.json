@@ -1,7 +1,7 @@
 {
   "name": "AutoLlmsTxt",
   "author": [
-    "[https://unistellar.risetvp.com/jason-reskin Jason Reskin]",
+    "[https://unistellar.risetvp.com/jason-reskin Jason Reskin]"
   ],
   "url": "https://www.mediawiki.org/wiki/Extension:AutoLlmsTxt",
   "description": "Generates llms.txt and llms-full.txt automatically for MediaWiki.",
