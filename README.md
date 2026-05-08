@@ -1,11 +1,17 @@
 # AutoLlmsTxt
 
-MediaWiki extension that automatically generates `llms.txt` and `llms-full.txt` whenever wiki content changes.
+MediaWiki extension that automatically generates `llms.txt` and `llms-full.txt` files whenever wiki content changes, helping AI systems and large language models discover and understand wiki content.
+
+## Project
+
+- GitHub: https://github.com/Unistellar-Industries-LLC/AutoLlmsTxt
+- Author: https://unistellar.risetvp.com/jason-reskin/
+- Company: https://unistellar.risetvp.com/
 
 ## Credits
 
-- AutoLlmsTxt: Jason Reskin / Unistellar Industries, LLC
-- Based on AutoSitemap architecture by Maxim Martynov (dolfinus), Jehy, and François Boutines-Vignard
+- AutoLlmsTxt: [Jason Reskin](https://unistellar.risetvp.com/jason-reskin/) / [Unistellar Industries, LLC](https://unistellar.risetvp.com/)
+- Based on [AutoSitemap](https://www.mediawiki.org/wiki/Extension:AutoSitemap) architecture by Maxim Martynov ([dolfinus](https://www.mediawiki.org/wiki/User:Martynov_Maxim)), Jehy, and François Boutines-Vignard
 
 ## Install
 
@@ -29,9 +35,25 @@ $wgAutoLlmsTxt['footer'] = "\n";
 
 ## Behavior
 
-- Reuses AutoSitemap-style selection: non-redirect pages, exclusions, last revision timestamps.
-- Writes atomically via temporary files + rename.
-- Supports rate-limited regeneration with `min_age`.
+- Reuses AutoSitemap-style selection:
+  - non-redirect pages
+  - namespace exclusions
+  - page exclusions
+  - revision timestamps
+- Writes atomically using temporary files plus rename operations
+- Supports rate-limited regeneration with `min_age`
 - Generates:
-  - `llms.txt`: markdown index of pages.
-  - `llms-full.txt`: fuller markdown export with title, URL, last-modified, summary placeholder.
+  - `llms.txt` — markdown index of pages
+  - `llms-full.txt` — expanded markdown export with titles, canonical URLs, timestamps, and summaries
+
+## Features
+
+- Automatic regeneration on wiki edits and page events
+- AI-friendly Markdown/plain-text output
+- Configurable exclusions and limits
+- Lightweight architecture inspired by AutoSitemap
+- Compatible with modern MediaWiki installations
+
+## License
+
+GPL-3.0-or-later
