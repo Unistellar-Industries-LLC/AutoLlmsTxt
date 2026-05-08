@@ -13,10 +13,10 @@
   "license-name": "GPL-3.0+",
   "type": "other",
   "ExtensionMessagesFiles": {
-    "AutoSitemap": "AutoSitemap.i18n.php"
+    "AutoLlmsTxt": "AutoLlmsTxt.i18n.php"
   },
   "AutoloadClasses": {
-    "AutoLlmsTxt": "AutoSitemap_body.php"
+    "AutoLlmsTxt": "AutoLlmsTxt_body.php"
   },
   "Hooks": {
     "AfterImportPage": [
