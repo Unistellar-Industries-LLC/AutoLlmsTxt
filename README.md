@@ -43,7 +43,7 @@ When `use_structured_index` is enabled, `llms.txt` is grouped into sections:
 - **Namespace sections** (e.g. `Main`, `Project`, custom namespaces)
 - **Media files** (`NS_FILE`, when not excluded)
 
-If `index_title`/`index_description` are not set, the extension falls back to MediaWiki config values (`Sitename` and `MetaDescription`).
+If `index_title`/`index_description` are not set, the extension falls back to MediaWiki globals (`$wgSitename` and `$wgMetaDescription`).
 
 ## Behavior
 
