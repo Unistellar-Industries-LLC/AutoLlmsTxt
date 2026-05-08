@@ -1,44 +1,50 @@
 {
-  "name": "AutoSitemap",
-  "author": "Dolfinus",
-  "url": "https://www.mediawiki.org/wiki/Extension:AutoSitemap",
-  "description": "Creates a XML Sitemap file automatically.",
-  "version": "1.8.2",
+  "name": "AutoLlmsTxt",
+  "author": [
+    "Jason Reskin",
+    "Unistellar Industries, LLC",
+    "Maxim Martynov (dolfinus)",
+    "François Boutines-Vignard",
+    "Jehy"
+  ],
+  "url": "https://www.mediawiki.org/wiki/Extension:AutoLlmsTxt",
+  "description": "Generates llms.txt and llms-full.txt automatically for MediaWiki.",
+  "version": "0.1.0",
   "license-name": "GPL-3.0+",
   "type": "other",
   "ExtensionMessagesFiles": {
     "AutoSitemap": "AutoSitemap.i18n.php"
   },
   "AutoloadClasses": {
-    "AutoSitemap": "AutoSitemap_body.php"
+    "AutoLlmsTxt": "AutoSitemap_body.php"
   },
   "Hooks": {
     "AfterImportPage": [
-      "AutoSitemap::writeSitemap"
+      "AutoLlmsTxt::writeLlmsFiles"
     ],
     "PageDeleteComplete": [
-      "AutoSitemap::writeSitemap"
+      "AutoLlmsTxt::writeLlmsFiles"
     ],
     "ArticleUndelete": [
-      "AutoSitemap::writeSitemap"
+      "AutoLlmsTxt::writeLlmsFiles"
     ],
     "PageMoveComplete": [
-      "AutoSitemap::writeSitemap"
+      "AutoLlmsTxt::writeLlmsFiles"
     ],
     "ArticleMergeComplete": [
-      "AutoSitemap::writeSitemap"
+      "AutoLlmsTxt::writeLlmsFiles"
     ],
     "UploadComplete": [
-      "AutoSitemap::writeSitemap"
+      "AutoLlmsTxt::writeLlmsFiles"
     ],
     "RevisionUndeleted": [
-      "AutoSitemap::writeSitemap"
+      "AutoLlmsTxt::writeLlmsFiles"
     ],
     "RevisionRecordInserted": [
-      "AutoSitemap::writeSitemap"
+      "AutoLlmsTxt::writeLlmsFiles"
     ],
     "PageSaveComplete": [
-      "AutoSitemap::writeSitemap"
+      "AutoLlmsTxt::writeLlmsFiles"
     ]
   },
   "manifest_version": 1

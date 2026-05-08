@@ -1,12 +1,11 @@
 <?php
 if ( function_exists( 'wfLoadExtension' ) ) {
-	wfLoadExtension( 'AutoSitemap' );
-	// Keep i18n globals so mergeMessageFileList.php doesn't break
+	wfLoadExtension( 'AutoLlmsTxt' );
 	wfWarn(
-		'Deprecated PHP entry point used for AutoSitemap extension. Please use wfLoadExtension instead, ' .
+		'Deprecated PHP entry point used for AutoLlmsTxt extension. Please use wfLoadExtension instead, ' .
 		'see https://www.mediawiki.org/wiki/Extension_registration for more details.'
 	);
 	return;
 } else {
-	die( 'This version of the AutoSitemap extension requires MediaWiki 1.25+' );
+	die( 'This version of the AutoLlmsTxt extension requires MediaWiki 1.25+' );
 }
