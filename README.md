@@ -11,7 +11,7 @@ MediaWiki extension that automatically generates `llms.txt` and `llms-full.txt` 
 ## Credits
 
 - AutoLlmsTxt: [Jason Reskin](https://unistellar.risetvp.com/jason-reskin/) / [Unistellar Industries, LLC](https://unistellar.risetvp.com/)
-- Based on [AutoSitemap](https://www.mediawiki.org/wiki/Extension:AutoSitemap) architecture by Maxim Martynov ([dolfinus](https://www.mediawiki.org/wiki/User:Martynov_Maxim)), Jehy, and François Boutines-Vignard
+- Based on [AutoSitemap](https://www.mediawiki.org/wiki/Extension:AutoSitemap) architecture by Maxim Martynov [(dolfinus)][https://www.mediawiki.org/wiki/User:Martynov_Maxim], Jehy, and François Boutines-Vignard
 
 ## Install
 

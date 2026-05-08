@@ -1,15 +1,11 @@
 {
   "name": "AutoLlmsTxt",
   "author": [
-    "Jason Reskin",
-    "Unistellar Industries, LLC",
-    "Maxim Martynov (dolfinus)",
-    "François Boutines-Vignard",
-    "Jehy"
+    "[https://unistellar.risetvp.com/jason-reskin Jason Reskin]",
   ],
   "url": "https://www.mediawiki.org/wiki/Extension:AutoLlmsTxt",
   "description": "Generates llms.txt and llms-full.txt automatically for MediaWiki.",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "license-name": "GPL-3.0+",
   "type": "other",
   "ExtensionMessagesFiles": {
